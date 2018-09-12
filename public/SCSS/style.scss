@@ -1,0 +1,40 @@
+#main {
+  background-color: gainsboro;
+  display: flex;
+  flex-direction: column;
+  font-family: "PT Serif", serif;
+  text-align: center;
+  align-content: center;
+}
+
+#title {
+  color: rgb(27, 94, 36);
+}
+
+#img-div {
+  margin: 2%;
+  /* margin-top: 20px; */
+  /* width: 100%; */
+  border: 5px solid white;
+  background-color: white;
+}
+
+#image {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 90%;
+}
+
+#tribute-info {
+  /* margin: auto 100px; */
+  /* align-self: flex-start; */
+}
+
+#tribute-info {
+  /* flex: 0 1 50%; */
+  ul {
+    text-align: left;
+    margin: 0px 20%;
+  }
+}
